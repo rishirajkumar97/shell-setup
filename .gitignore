@@ -1,0 +1,7 @@
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# Local overrides (if stored here)
+*.local

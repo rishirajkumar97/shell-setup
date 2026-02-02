@@ -1,0 +1,52 @@
+# Font
+font-family = JetBrains Mono
+font-size = 14
+font-thicken = true
+adjust-cell-height = 15%
+
+# Theme
+theme = Catppuccin Mocha
+background-opacity = 0.92
+background-blur-radius = 20
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+# Shaders (paths set relative to ~/.config/ghostty)
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/ripple_cursor.glsl
+custom-shader-animation = always
+
+# Window
+window-padding-x = 12
+window-padding-y = 10
+window-save-state = always
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+# Shell
+shell-integration = zsh
+copy-on-select = clipboard
+scrollback-limit = 100000
+
+# Keybindings
+keybind = cmd+t=new_tab
+keybind = cmd+w=close_surface
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+opt+up=goto_split:top
+keybind = cmd+opt+down=goto_split:bottom
+keybind = cmd+opt+left=goto_split:left
+keybind = cmd+opt+right=goto_split:right
+keybind = cmd+shift+enter=toggle_split_zoom
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+k=clear_screen
+keybind = cmd+enter=toggle_fullscreen
+keybind = cmd+shift+,=open_config
+keybind = cmd+shift+r=reload_config
+keybind = opt+left=text:\x1bb
+keybind = opt+right=text:\x1bf
+keybind = cmd+backspace=text:\x15
